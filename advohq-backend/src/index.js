@@ -16,7 +16,7 @@ const app = express();
 // ── Security ──────────────────────────────────────────────────────────────────
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_ORIGIN || '*',
+  origin:"https://test-2-ep9i-jlgnz6e74-staple-agencys-projects.vercel.app",
   methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
   allowedHeaders: ['Content-Type','Authorization'],
   credentials: true,
