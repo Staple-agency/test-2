@@ -1,5 +1,5 @@
 setTimeout(() => {
-  require('./migrate');
+  require('./config/migrate');
 }, 5000);
 require('dotenv').config();
 const express = require('express');
