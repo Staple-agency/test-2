@@ -7,4 +7,4 @@
  * For local dev:  window.ADVOHQ_API = 'http://localhost:4000';
  * For production: window.ADVOHQ_API = 'https://advohq-api.onrender.com';
  */
-window.ADVOHQ_API = 'https://advohq-api.onrender.com'; // ← replace with your Render URL
+window.ADVOHQ_API = "https://yqruiebwmq.ap-south-1.awsapprunner.com";// ← replace with your Render URL
