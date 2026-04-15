@@ -18,12 +18,7 @@ const app = express();
 // ── Security ──────────────────────────────────────────────────────────────────
 app.use(helmet());
 app.use(cors({
-  origin: [
-    "https://test-2-ep9i.vercel.app",
-    "https://test-2-ep9i-jlgnz6e74-staple-agencys-projects.vercel.app"
-  ],
-  methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
-  allowedHeaders: ['Content-Type','Authorization']
+  origin: ["https://test-2-ep9i-4pow7nu6s-staple-agencys-projects.vercel.app"]
 }));
 
 // ── Rate limiting ─────────────────────────────────────────────────────────────
