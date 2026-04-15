@@ -1,3 +1,4 @@
+const app = express();
 app.set('trust proxy', 1);
 require('dotenv').config();
 const express = require('express');
