@@ -1,6 +1,4 @@
-setTimeout(() => {
-  require('./config/migrate');
-}, 5000);
+require('./config/migrate');
 require('dotenv').config();
 const express = require('express');
 const cors    = require('cors');
