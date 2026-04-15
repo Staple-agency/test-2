@@ -18,7 +18,11 @@ const app = express();
 // ── Security ──────────────────────────────────────────────────────────────────
 app.use(helmet());
 app.use(cors({
-  origin: ["https://test-2-ep9i-4pow7nu6s-staple-agencys-projects.vercel.app"]
+  origin: [
+    "https://test-2-ep9i.vercel.app",
+    "https://test-2-ep9i-4pow7nu6s-staple-agencys-projects.vercel.app"
+  ],
+  credentials: true
 }));
 
 // ── Rate limiting ─────────────────────────────────────────────────────────────
