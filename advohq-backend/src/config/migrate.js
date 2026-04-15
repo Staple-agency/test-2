@@ -103,7 +103,6 @@ CREATE INDEX IF NOT EXISTS idx_notifs_user ON notifications(user_id, read, creat
     throw err;
   } finally {
     client.release();
-    await pool.end();
   }
 })().catch(err => {
   console.error('Migration failed:', err);
