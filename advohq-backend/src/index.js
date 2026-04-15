@@ -1,6 +1,5 @@
 app.set('trust proxy', 1);
 require('dotenv').config();
-require('./config/migrate');
 const express = require('express');
 const cors    = require('cors');
 const helmet  = require('helmet');
