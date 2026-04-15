@@ -104,7 +104,4 @@ CREATE INDEX IF NOT EXISTS idx_notifs_user ON notifications(user_id, read, creat
   } finally {
     client.release();
   }
-})().catch(err => {
-  console.error('Migration failed:', err);
-  process.exit(1);
-});
+})();
