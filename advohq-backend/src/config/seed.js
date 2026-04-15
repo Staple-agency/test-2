@@ -69,7 +69,6 @@ async function seed() {
     console.log('   Login: demo / demo1234');
   } finally {
     client.release();
-    await pool.end();
   }
 }
 
