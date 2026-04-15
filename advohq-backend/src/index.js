@@ -1,5 +1,5 @@
-require('./config/migrate');
 require('dotenv').config();
+require('./config/migrate');
 const express = require('express');
 const cors    = require('cors');
 const helmet  = require('helmet');
